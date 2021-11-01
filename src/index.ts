@@ -1,6 +1,9 @@
+import { run } from "./run";
+
 const main = async () => {
   console.log("Hello!");
-  debugger;
+  // debugger;
+  run();
 };
 
 main().then();
